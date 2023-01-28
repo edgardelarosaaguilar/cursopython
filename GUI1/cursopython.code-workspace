@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../Documents/GitHub/cursopython"
+		},
+		{
+			"path": "../__pycache__"
+		},
+		{
+			"path": "../Calc"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

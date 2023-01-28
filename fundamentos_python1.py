@@ -1,0 +1,1 @@
+print("Hola mundo: ejemplo 25 de enero 12:30 hrs")
