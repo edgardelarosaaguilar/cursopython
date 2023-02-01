@@ -157,4 +157,44 @@ cientifico = (23E47)
 
 print(n1 + n2)
 
+cadena1 = "Esto es una cadena"
+cadena2 = "Esto también es una cadena"
 
+print(cadena1, type(cadena1))
+print(cadena2, type(cadena2))
+
+cadenaMultilinea = '''Esto es una cadena 
+de varias lineas con tabuladores y
+de saltos de linea'''
+print(cadenaMultilinea, type(cadenaMultilinea))
+
+cadena3 = ''
+print(cadena3, type(cadena3))
+
+print("Segmentación de cadenas")
+print(cadena1[5:11])
+print(cadena1[:3])
+print(cadena1[7:])
+print(cadena1[-8:-1])
+print(cadena1[0:18:1])
+print(cadena1[0:18:2])
+print(cadena1[0:18:3])
+
+cadena4 = (cadena1 + " ") * 5
+print(cadena4)
+
+nuevoTema("Tipos mutables e inmutables")
+#Cada objeto está identificado por su
+#indentifsf, tipo y valor
+
+x = 10
+print("Identidad: ", id(x))
+print("Tipo: ", type(x))
+print("Valor: ", x)
+
+lista1 = [1, 2, 3, 4] #declarar unalista
+lista2 = list("6789")
+print(lista2)
+print(lista2)
+lista3 = [1, "Hola, 3.14, [1, 2, 3]"]
+print(lista3)
