@@ -114,4 +114,47 @@ if __name__=="__main__":
     print("d[1] = ", d[1])
     print("d[Nombre] = ", d["Nombre"])
     time.sleep(2)
+
+#¿Cómo se declara una lista?
+lista1 = [1, 2, 3, 4]
+lista2 = list("6789")
+print(lista1)
+print(lista2)
+lista3 = [1, "Hola", 3.14, [1, 2, 3]]
+print(lista3)
+print(lista3[3][1])
+
+conjuntos = set(["Manzana","Manzana","Pera","Durazno","Durazno"])
+print("Conjunto: ",conjuntos)
+
+diccionario = {
+        "Nombre": "Edgar",
+        "Edad": "44",
+        456: 123456789
+    }
+
+print("Diccionario", diccionario)
+print("Diccionario nombre: ", diccionario[456])
+
+nuevoTema("Entrada de datos desde el teclado.")
+
+print("¿Cómo te llamas?")
+nombre = input()
+print("Hola--->",nombre)
     
+aPaterno = input("¿Cuál es tu apellido paterno?")
+print(nombre + " " + aPaterno)
+
+print(type(nombre))
+
+n1 = float(input("Ingresa un número: "))
+print(type(n1))
+
+n2 = float(input("Ingresa un número: "))
+print(type(n2))
+
+cientifico = (23E47)
+
+print(n1 + n2)
+
+
